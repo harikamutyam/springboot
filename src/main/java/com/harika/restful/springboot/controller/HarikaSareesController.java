@@ -13,13 +13,13 @@ public class HarikaSareesController {
     @GetMapping("/getSarees")
     public String getSareesFromBackend() {
         // ddb call
-        return "Saree types endpoint";
+        return "Sarees types endpoint 3";
     }
 
     @GetMapping("/getPrice")
     public String getPriceFromBackend() {
         // ddb call
-        return "price endpoint 3";
+        return "price endpoint  3";
     }
 
 
